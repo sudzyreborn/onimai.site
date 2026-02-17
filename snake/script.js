@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 
-  const startMessage = "Press everything to enter...";
+  const startMessage = "Click to enter...";
   let startTextContent = '';
   let startIndex = 0;
   let startCursorVisible = true;
@@ -205,7 +205,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let nameText = '';
   let nameIndex = 0;
   let isNameDeleting = false;
-  let nameCursorVisible = true;
+  let nameCursorVisible = false;
 
   function typeWriterName() {
     if (!isNameDeleting && nameIndex < name.length) {
@@ -233,11 +233,11 @@ document.addEventListener('DOMContentLoaded', () => {
     nameCursorVisible = !nameCursorVisible;
     profileName.textContent = nameText + (nameCursorVisible ? '|' : ' ');
   }, 500);
-//e 
+
 
   const bioMessages = [
-    "sofis the best🤍",
-    "welcome, snake"
+    "burnt out developer",
+    "request your own site @jvbj on discord"
   ];
   let bioText = '';
   let bioIndex = 0;
@@ -637,7 +637,7 @@ document.addEventListener('DOMContentLoaded', () => {
           skillsBlock.classList.remove('hidden');
           gsap.fromTo(skillsBlock,
             { x: 100, opacity: 0 },
-            { x: 0, opacity: 1, duration: 0.5, ease: 'power2.out' }
+            { x: 0, opacity: 1, duration: 0.5, ease: 'power2.out' 
           );
           gsap.to(pythonBar, { width: '87%', duration: 2, ease: 'power2.out' });
           gsap.to(cppBar, { width: '75%', duration: 2, ease: 'power2.out' });
@@ -670,4 +670,3 @@ document.addEventListener('DOMContentLoaded', () => {
   typeWriterStart();
 
 });
-
