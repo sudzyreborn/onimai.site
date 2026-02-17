@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 
-  const startMessage = "Click here to see the motion baby";
+  const startMessage = "Click to enter...";
   let startTextContent = '';
   let startIndex = 0;
   let startCursorVisible = true;
@@ -201,10 +201,10 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 
-  const name = "JAQLIV";
-  let nameText = '';
+  const name = "sudzy";
+  let nameText = 'jvbj';
   let nameIndex = 0;
-  let isNameDeleting = false;
+  let isNameDeleting = true;
   let nameCursorVisible = true;
 
   function typeWriterName() {
@@ -236,8 +236,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   const bioMessages = [
-    "Fu*k Guns.lol & Fakecrime.bio got banned too often, so I created my own.",
-    "\"Hello, World!\""
+    "burnt out developer",
+    "\"request your own site @jvbj on discord\""
   ];
   let bioText = '';
   let bioIndex = 0;
