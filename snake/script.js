@@ -233,7 +233,7 @@ document.addEventListener('DOMContentLoaded', () => {
     nameCursorVisible = !nameCursorVisible;
     profileName.textContent = nameText + (nameCursorVisible ? '|' : ' ');
   }, 500);
-
+//e 
 
   const bioMessages = [
     "sofis the best🤍",
@@ -670,3 +670,4 @@ document.addEventListener('DOMContentLoaded', () => {
   typeWriterStart();
 
 });
+
