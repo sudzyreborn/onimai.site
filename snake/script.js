@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 
-  const startMessage = "Click to enter...";
+  const startMessage = "Press everything to enter...";
   let startTextContent = '';
   let startIndex = 0;
   let startCursorVisible = true;
@@ -201,11 +201,11 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 
-  const name = "sudzy";
+  const name = "snake";
   let nameText = '';
   let nameIndex = 0;
   let isNameDeleting = false;
-  let nameCursorVisible = false;
+  let nameCursorVisible = true;
 
   function typeWriterName() {
     if (!isNameDeleting && nameIndex < name.length) {
@@ -236,8 +236,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   const bioMessages = [
-    "burnt out developer",
-    "request your own site @jvbj on discord"
+    "sofis the best🤍",
+    "welcome, snake"
   ];
   let bioText = '';
   let bioIndex = 0;
@@ -668,4 +668,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   typeWriterStart();
+
 });
