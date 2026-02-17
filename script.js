@@ -202,10 +202,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   const name = "sudzy";
-  let nameText = 'jvbj';
+  let nameText = '';
   let nameIndex = 0;
-  let isNameDeleting = true;
-  let nameCursorVisible = true;
+  let isNameDeleting = false;
+  let nameCursorVisible = false;
 
   function typeWriterName() {
     if (!isNameDeleting && nameIndex < name.length) {
@@ -237,7 +237,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const bioMessages = [
     "burnt out developer",
-    "\"request your own site @jvbj on discord\""
+    "request your own site @jvbj on discord"
   ];
   let bioText = '';
   let bioIndex = 0;
