@@ -1,5 +1,5 @@
 ## A fully open-source site inspired by guns.lol and fakecrime.bio.
-
+redeolpy pls
 ## 🎨 Customize it your way
 If you want to change the **music**, **background**, or **cursor**, just replace the corresponding files in the `assets/` folder.  
 Make sure to keep the **same file format** (e.g. `.mp3`, `.png`, `.cur`) to avoid issues.
@@ -85,5 +85,6 @@ Place your files into the `assets/` folder with these exact filenames:
 
 ![Image](https://github.com/user-attachments/assets/feed39df-8b60-46d5-9bf8-b12a5bb70395)
 ![Image](https://github.com/user-attachments/assets/8ee03242-3c84-400f-8d6d-2b376f49ab4f)
+
 
 
