@@ -119,7 +119,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function initializeVisitorCounter() {
     let totalVisitors = localStorage.getItem('totalVisitorCount');
     if (!totalVisitors) {
-      totalVisitors = 921234;
+      totalVisitors = 1923;
       localStorage.setItem('totalVisitorCount', totalVisitors);
     } else {
       totalVisitors = parseInt(totalVisitors);
@@ -201,7 +201,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 
-  const name = "snake";
+  const name = "bccglint";
   let nameText = '';
   let nameIndex = 0;
   let isNameDeleting = false;
@@ -236,8 +236,9 @@ document.addEventListener('DOMContentLoaded', () => {
 //e 
 
   const bioMessages = [
-    "sofis the best🤍",
-    "welcome, snake"
+    "gay chud who likes collecting vinyl records and other stuff",
+    "i like editing, and graphic design :P",
+    "im also known as: gaychud445/glintbcc/bccfemboy/and other names ion know"
   ];
   let bioText = '';
   let bioIndex = 0;
@@ -670,4 +671,5 @@ document.addEventListener('DOMContentLoaded', () => {
   typeWriterStart();
 
 });
+
 
