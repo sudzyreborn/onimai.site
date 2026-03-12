@@ -220,8 +220,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   const bioMessages = [
-    "burnt out developer",
-    "request your own site @jvbj on discord"
+    "osint researcher",
+    "request your own profile, contact jvbj on discord"
+    "creator of moon tracker 🔥💪"
   ];
   let bioText = '';
   let bioIndex = 0;
