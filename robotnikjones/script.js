@@ -214,7 +214,7 @@ document.addEventListener('DOMContentLoaded', () => {
       setTimeout(() => profileBio.classList.remove('glitch'), 200);
     }
 
-    setTimeout(typeWriterBio, isNameDeleting ? 20 : Math.floor(Math.random() * 101) + 30);
+    setTimeout(typeWriterBio, isBioDeleting ? 20 : Math.floor(Math.random() * 101) + 30);
 }
 
 
