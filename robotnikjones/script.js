@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', () => {
     "robotnik :3",
     "67mangogod",
     "robotnik the femboy",
-    "herewasrobornik",
+    "outsector",
     "importrobotnik",
   
   ];
@@ -158,7 +158,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   const bioMessages = [
-   "gay furry femboy who loves his bf",
+   "roseboy",
     "fuck homophobia",
 
     "bleh",
@@ -176,7 +176,7 @@ document.addEventListener('DOMContentLoaded', () => {
     "dance to the rhythm",
     "the do",
 
-    "hahahahaha",
+    "deer fursona",
     "hyperpop is fire",
 
     "do i make you proud",
