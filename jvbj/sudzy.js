@@ -110,7 +110,10 @@ document.addEventListener('DOMContentLoaded', () => {
   const names = [
     "sudzy",
     "jvbj",
-    "sudzythegoat",  
+    "sudzythegoat",
+    "arcane",
+    "arcantiful",
+    "1modder101",
   ];
   let name = names[Math.floor(Math.random() * names.length)];
   let nameText = '';
@@ -151,6 +154,19 @@ document.addEventListener('DOMContentLoaded', () => {
    "dm for free file host 🙃",
     "best osint tool?? https://xsint.space",
     "better than you",
+    "t.me/ OH WAIT! IM NOT A PEDO!",
+    "pastebin scraping since 4/4/26",
+    "i love everyone",
+    "if you see this you are super chill",
+    "im really tired in case you didnt know",
+    "i should sleep soon.",
+    "btc: bc1qslur0rj4p06ufmtfqylw467m8gdsmc95ulfl7s",
+    "sleeping forever",
+    "super chill",
+    "XSINT OSINT!!!",
+    "https://xsint.space",
+    "artemis ii launch was epic",
+    "email: jvbj@onimai.site",
    ];
   let bioText = '';
   let bioIndex = 0;
